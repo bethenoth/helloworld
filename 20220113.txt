@@ -1,0 +1,18 @@
+Warning: LF will be replaced by CRLF
+Windows CR LF
+Linux/Mac LF
+CR short for Carriage Return
+LF short for LineFeed/new line
+
+git config --list
+
+core.autocrlf=ture
+CR+LF--->LF commit
+LF--->CR+LF checkout
+
+core.autocrlf=input
+CR+LF--->LF commit
+xxxxxxxxxxxx checkout
+
+core.autocrlf=false
+without exchange
