@@ -1,0 +1,15 @@
+git log --oneline --graph--------see the change of local repository
+git reflog-------------see the change of each operation
+
+git reset   -----------------mainly reset local repository/index/workspace
+git reset = git reset --mixed -----------default parameter, reset the index/stage space
+git reset --soft HEAD^------------reset local repository to latest commit and keep the changes in index/stage space
+git reset --hard HEAD^-----------reset local repository/index/workspace to last commit, but can reset untraced files
+
+git checkout . ------------mainly copy local repository to workspace
+git clean -xdf -------------delete untraced files
+
+
+git push origin main -f --------force to let remote repository keep the same as local repository
+
+
